@@ -15,7 +15,7 @@ def greet(who_to_greet):
 print(greet('world'))
 print(greet('Jim'))
 
-r = requests.get('http://www.brattleborofoodcoop.coop')
+r = requests.get('http://www.cnn.com')
 print(r.status_code)
 
 if r.status_code == 200:
